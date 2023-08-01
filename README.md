@@ -4,7 +4,7 @@ AWS Elastic Container Registry (ECR) is a fully managed container image registry
 
 Elastic in AWS means highly scalable and available.
 
-Similar to other Container Registries as DockerHub, Quay.io, GCR, GHCR - these are used to store the Docker Images.
+It is similar to other Container Registries as DockerHub, Quay.io, GCR, GHCR - these are used to store the Docker Images.
 
 ![image](https://github.com/Pavan-1997/AWS_ECR/assets/32020205/89c3b9c5-c0fe-41ed-b296-e27f8b355dcd)
 
