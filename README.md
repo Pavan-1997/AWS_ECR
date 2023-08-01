@@ -38,12 +38,29 @@ AWS Elastic Container Registry (ECR) is a fully managed container image registry
    
    Connect to the instance
 
-### Configuring AWS CLI
-After installing the AWS CLI, open a terminal and run the following command to configure your CLI with your AWS credentials:
 
+6. Install Docker in EC2
 ```
-aws configure
+sudo apt update -y
+
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+
+apt-cache policy docker-ce
+
+sudo apt install docker-ce
+
+sudo usermod -aG docker $USER
+
+sudo systemctl status docker 
 ```
+```
+sudo reboot
+```
+`Better to Reboot the instance`
 
 Enter your AWS Access Key ID, Secret Access Key, default region, and preferred output format when prompted.
 
