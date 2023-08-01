@@ -2,6 +2,13 @@
 
 AWS Elastic Container Registry (ECR) is a fully managed container image registry service provided by Amazon Web Services (AWS). It enables you to store, manage, and deploy container images (Docker images) securely, making it an essential component of your containerized application development workflow. ECR integrates seamlessly with other AWS services like Amazon Elastic Container Service (ECS) and Amazon Elastic Kubernetes Service (EKS).
 
+Elastic in AWS means highly scalable and available.
+
+Similar to other Container Registries as DockerHub, Quay.io, GCR, GHCR - these are used to store the Docker Images.
+
+![image](https://github.com/Pavan-1997/AWS_ECR/assets/32020205/89c3b9c5-c0fe-41ed-b296-e27f8b355dcd)
+
+
 ## Key Benefits of ECR
 - **Security**: ECR offers encryption at rest, and images are stored in private repositories by default, ensuring the security of your container images.
 - **Integration**: ECR integrates smoothly with AWS services like ECS and EKS, simplifying the deployment process.
