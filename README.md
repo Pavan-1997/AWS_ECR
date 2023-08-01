@@ -24,7 +24,19 @@ AWS Elastic Container Registry (ECR) is a fully managed container image registry
 4. Give a Repository name -> Enable Tag immutability -> Enable Image scan settings -> Click on Create repository
 
  
-5. Launch an Ubuntu EC2 instance and connect to it
+5. Now goto EC2 from AWS Console -> Click on Launch instance
+
+   Give a name
+   
+   Use Ubuntu as an image
+   
+   Instance type as t2.micro
+   
+   Create a key pair if already present use existing one
+   
+   Click on Launch instance
+   
+   Connect to the instance
 
 ### Configuring AWS CLI
 After installing the AWS CLI, open a terminal and run the following command to configure your CLI with your AWS credentials:
