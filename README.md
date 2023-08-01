@@ -23,6 +23,8 @@ AWS Elastic Container Registry (ECR) is a fully managed container image registry
 
 4. Give a Repository name -> Enable Tag immutability -> Enable Image scan settings -> Click on Create repository
 
+![image](https://github.com/Pavan-1997/AWS_ECR/assets/32020205/b91671d7-c4c4-4ab9-a144-fefbafa550c5)
+
  
 5. Now goto EC2 from AWS Console -> Click on Launch instance
 
@@ -102,6 +104,10 @@ aws ecr get-login-password --region <your-region> | docker login --username AWS 
 ```
 docker push <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
 ```
+![image](https://github.com/Pavan-1997/AWS_ECR/assets/32020205/faa3c74f-57e8-4d84-b7c8-ee377075a70e)
+
+![image](https://github.com/Pavan-1997/AWS_ECR/assets/32020205/1fa16a9c-3795-42b3-8c08-42e3b5b13ee5)
+
 
 12. Pulling Docker Images from ECR
     To pull and use the Docker images from ECR on another system or AWS service, follow these step -> Log in to ECR using the AWS CLI as shown in Step 10. -> Pull the Docker image from ECR:
