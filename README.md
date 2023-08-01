@@ -110,7 +110,8 @@ docker pull <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repo
 ```
 
 13. Cleaning Up Resources
-   As good practice, remember to clean up resources that you no longer need to avoid unnecessary costs. To delete an ECR repository:
+  
+    As good practice, clean up resources that you no longer need to avoid unnecessary costs. To delete an ECR repository:
   
    - Make sure there are no images in the repository, or delete the images using `docker rmi` locally.
    - Go to the AWS Management Console, navigate to the Amazon ECR service, and select your repository.
