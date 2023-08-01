@@ -62,6 +62,20 @@ sudo reboot
 ```
 `Better to Reboot the instance`
 
+
+7. Install AWS CLI
+```
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+sudo apt install unzip
+
+unzip awscliv2.zip
+
+sudo ./aws/install
+
+aws --version
+```
+
 Enter your AWS Access Key ID, Secret Access Key, default region, and preferred output format when prompted.
 
 ## 4. Pushing Docker Images to ECR
