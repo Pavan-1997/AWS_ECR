@@ -12,12 +12,19 @@ AWS Elastic Container Registry (ECR) is a fully managed container image registry
 ---
 # Creating an ECR repo - Build Docker Image - Push Docker Image
 
-1. Go to the AWS Management Console and navigate to the Amazon ECR service.
-2. Click on "Create repository" to create a new repository.
-3. Enter a unique name for your repository and click "Create repository."
+1. Goto ECR from AWS Console
 
-### Installing AWS CLI
-To interact with ECR from your local machine, you'll need to have the AWS Command Line Interface (CLI) installed. Follow the instructions in the [AWS CLI User Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) to install it.
+
+2. Click on Get started
+
+
+3. As you can see by default the AWS ECR registry is set to Private
+
+
+4. Give a Repository name -> Enable Tag immutability -> Enable Image scan settings -> Click on Create repository
+
+ 
+5. Launch an Ubuntu EC2 instance and connect to it
 
 ### Configuring AWS CLI
 After installing the AWS CLI, open a terminal and run the following command to configure your CLI with your AWS credentials:
