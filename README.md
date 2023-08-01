@@ -9,8 +9,9 @@ AWS Elastic Container Registry (ECR) is a fully managed container image registry
 - **Availability**: ECR guarantees high availability, reducing the risk of image unavailability during critical times.
 - **Lifecycle Policies**: You can define lifecycle policies to automate the cleanup of unused or old container images, helping you save on storage costs.
 
-## 3. Getting Started with AWS ECR
-### Creating an ECR Repository
+---
+# Creating an ECR repo - Build Docker Image - Push Docker Image
+
 1. Go to the AWS Management Console and navigate to the Amazon ECR service.
 2. Click on "Create repository" to create a new repository.
 3. Enter a unique name for your repository and click "Create repository."
