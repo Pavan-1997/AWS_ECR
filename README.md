@@ -60,7 +60,7 @@ sudo systemctl status docker
 ```
 sudo reboot
 ```
-`Better to Reboot the instance`
+`Reboot the instance for Ubuntu user to execute docker commands`
 
 
 7. Install AWS CLI
