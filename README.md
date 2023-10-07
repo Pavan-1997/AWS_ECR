@@ -8,7 +8,7 @@ It is similar to other Container Registries as DockerHub, Quay.io, GCR, GHCR - t
 
 ![image](https://github.com/Pavan-1997/AWS_ECR/assets/32020205/89c3b9c5-c0fe-41ed-b296-e27f8b355dcd)
      
-  
+   
 ## Key Benefits of ECR
 - **Security**: ECR offers encryption at rest, and images are stored in private repositories by default, ensuring the security of your container images.
 - **Integration**: ECR integrates smoothly with AWS services like ECS and EKS, simplifying the deployment process.
